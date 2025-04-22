@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       box.style.width = "100px"; // Resetear tamaño
       box.style.height = "100px"; // Resetear tamaño
     }, 2000);
+    // mensaje de texto
     if (numero === 6) {
       mensaje.textContent = "¡Felicidades! Has sacado el número más alto";
       mensaje.style.color = "gold";
